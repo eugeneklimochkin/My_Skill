@@ -1,3 +1,14 @@
 interface:
-  display_name: "Обработка загруженных файлов"
-  short_description: "Извлечение текста через MarkItDown и OCR сканов PDF"
+  display_name: Строительная приемка и ЭДО
+  short_description: КС, УПД, ЭДО и односторонняя приемка
+  default_prompt: Используй $analyze-construction-acceptance для анализа приемки строительных
+    работ и документов ЭДО.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
