@@ -1,0 +1,14 @@
+interface:
+  display_name: Судебный штаб
+  short_description: Параллельные агенты для каждой юридической задачи
+  default_prompt: Используй $run-litigation-headquarters и всегда запусти минимум
+    двух независимых агентов параллельно.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

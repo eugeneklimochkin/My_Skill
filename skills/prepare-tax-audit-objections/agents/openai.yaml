@@ -1,0 +1,14 @@
+interface:
+  display_name: Возражения на акт проверки
+  short_description: Поэпизодные возражения на акт налоговой проверки
+  default_prompt: Разбери акт налоговой проверки по эпизодам и подготовь доказательные
+    возражения.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

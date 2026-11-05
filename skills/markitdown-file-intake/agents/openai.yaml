@@ -1,0 +1,12 @@
+interface:
+  display_name: Обработка загруженных файлов
+  short_description: Извлечение текста через MarkItDown и OCR сканов PDF
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

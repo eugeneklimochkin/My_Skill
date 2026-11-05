@@ -1,0 +1,14 @@
+interface:
+  display_name: Harvey LAB RF
+  short_description: Приемка по KLS и Арбитражному стандарту
+  default_prompt: Используй $validate-legal-work-rf для строгой приемки юридического
+    результата по российскому праву.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

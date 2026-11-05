@@ -1,0 +1,14 @@
+interface:
+  display_name: Банкротство и исполнение
+  short_description: Банкротство, ФССП и исполнение актов
+  default_prompt: Используй $handle-bankruptcy-enforcement-rf для анализа банкротного
+    или исполнительного производства.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

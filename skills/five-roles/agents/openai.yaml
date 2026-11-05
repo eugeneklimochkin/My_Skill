@@ -1,0 +1,14 @@
+interface:
+  display_name: Пять ролей
+  short_description: Стратегия, альтернативы и консенсус ролей
+  default_prompt: Используй $five-roles, чтобы проверить стратегию пятью ролями и
+    найти исполнимое согласованное решение.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: MemoryPlugin
+  short_description: Поиск истории и сохранение контекста через MemoryPlugin
+  default_prompt: Используй $memoryplugin, чтобы восстановить контекст моего дела
+    из подключенной памяти.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

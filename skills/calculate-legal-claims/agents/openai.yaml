@@ -1,0 +1,14 @@
+interface:
+  display_name: Расчет требований
+  short_description: Проверяемый расчет денежных требований
+  default_prompt: Используй $calculate-legal-claims для расчета долга, процентов,
+    неустойки и госпошлины.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

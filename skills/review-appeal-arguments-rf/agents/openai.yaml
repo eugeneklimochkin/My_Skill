@@ -1,0 +1,14 @@
+interface:
+  display_name: Фильтр апелляции
+  short_description: Ошибки решения и пределы апелляции
+  default_prompt: Проверь апелляционную жалобу или отзыв с сопоставлением решения
+    и материалов дела.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

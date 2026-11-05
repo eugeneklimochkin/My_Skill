@@ -1,0 +1,15 @@
+interface:
+  display_name: Юрист РФ
+  short_description: Параллельный маршрут всех задач по праву РФ
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#183153'
+  default_prompt: Используй $yurist-rf и всегда запусти Судебный штаб с минимум двумя
+    независимыми агентами параллельно.
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

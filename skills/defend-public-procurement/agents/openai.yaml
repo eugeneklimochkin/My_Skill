@@ -1,0 +1,14 @@
+interface:
+  display_name: Защита по 44-ФЗ и 223-ФЗ
+  short_description: Контракты, РНП, гарантии и неустойки
+  default_prompt: Используй $defend-public-procurement для построения позиции по государственному
+    или корпоративному контракту.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

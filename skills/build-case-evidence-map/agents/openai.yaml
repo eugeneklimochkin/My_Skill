@@ -1,0 +1,14 @@
+interface:
+  display_name: Доказательственный аудитор
+  short_description: Факты, хронология и карта доказательств
+  default_prompt: Используй $build-case-evidence-map для построения паспорта дела
+    и карты доказательств.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+interface:
+  display_name: 'Юрист РФ: судебная работа'
+  short_description: Параллельная судебная работа по праву РФ
+  default_prompt: Используй $yurist-rf-litigation и запусти минимум двух независимых
+    агентов параллельно.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

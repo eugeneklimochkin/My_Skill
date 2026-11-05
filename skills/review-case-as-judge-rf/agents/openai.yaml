@@ -1,0 +1,14 @@
+interface:
+  display_name: Судья-докладчик
+  short_description: Проверка дела и проекта глазами суда
+  default_prompt: Используй $review-case-as-judge-rf, чтобы проверить проект и доказательства
+    глазами суда.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

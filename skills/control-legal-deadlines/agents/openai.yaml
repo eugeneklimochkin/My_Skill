@@ -1,0 +1,14 @@
+interface:
+  display_name: Контроль юридических сроков
+  short_description: Расчет и контроль юридических сроков
+  default_prompt: Используй $control-legal-deadlines для расчета сроков и подготовки
+    календаря действий.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

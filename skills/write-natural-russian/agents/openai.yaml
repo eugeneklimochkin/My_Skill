@@ -1,0 +1,14 @@
+interface:
+  display_name: Естественный русский текст
+  short_description: Постоянные правила письма без шаблонных оборотов
+  default_prompt: 'Применяй $write-natural-russian ко всем моим текстам: пиши естественно,
+    точно и в подходящем жанре.'
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

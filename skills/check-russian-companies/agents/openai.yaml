@@ -1,0 +1,15 @@
+interface:
+  display_name: Проверка российских компаний
+  short_description: ФНС, активы, связи, суды и взыскание
+  default_prompt: Используй $check-russian-companies, чтобы провести актуальную проверку
+    компании или группы, включая ЕГРЮЛ, активы, корпоративные связи, суды, банкротство
+    и исполнительные производства.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

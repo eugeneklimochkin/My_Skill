@@ -1,0 +1,14 @@
+interface:
+  display_name: Готовность к подаче
+  short_description: Финальная проверка документа перед подачей
+  default_prompt: Используй $audit-filing-readiness для финальной проверки документа
+    и приложений перед подачей.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

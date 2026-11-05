@@ -1,0 +1,14 @@
+interface:
+  display_name: Экономика спора и мирового соглашения
+  short_description: Сравнение суда и урегулирования
+  default_prompt: Используй $evaluate-dispute-economics, чтобы сравнить судебный и
+    переговорный сценарии.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

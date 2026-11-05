@@ -1,0 +1,14 @@
+interface:
+  display_name: Недвижимость и земля РФ
+  short_description: ЕГРН, Росреестр, ДГИ и земельные права
+  default_prompt: Используй $handle-real-estate-land-rf для анализа прав на недвижимость
+    или земельный участок.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

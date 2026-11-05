@@ -1,0 +1,28 @@
+interface:
+  display_name: Контролер юридических дел
+  short_description: Реестр дел, сроков и следующих действий
+  default_prompt: Используй $control-legal-matters, чтобы обновить реестр дел и подготовить
+    контрольную сводку.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+dependencies:
+  tools:
+  - type: mcp
+    value: airtable
+    description: Единый реестр юридических дел
+  - type: mcp
+    value: google_calendar
+    description: Контроль подтвержденных сроков
+  - type: mcp
+    value: google_drive
+    description: Ссылки на материалы дел
+  - type: mcp
+    value: asana
+    description: Исполнение юридических поручений
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

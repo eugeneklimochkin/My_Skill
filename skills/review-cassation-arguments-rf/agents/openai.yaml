@@ -1,0 +1,14 @@
+interface:
+  display_name: Кассационный фильтр
+  short_description: Проверка доводов по пределам кассации
+  default_prompt: Проверь проект кассационной жалобы или отзыва по пределам кассационного
+    рассмотрения.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,13 @@
+interface:
+  display_name: РНП и жалоба в ФАС
+  short_description: Поэтапная защита в споре о РНП
+  default_prompt: Построй защиту по включению в РНП и последующему обжалованию.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

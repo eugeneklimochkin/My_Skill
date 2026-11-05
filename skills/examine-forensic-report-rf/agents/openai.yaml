@@ -1,0 +1,14 @@
+interface:
+  display_name: Анализ судебной экспертизы
+  short_description: Проверка судебной экспертизы и вопросов эксперту
+  default_prompt: Проанализируй назначение и заключение судебной экспертизы по материалам
+    дела.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

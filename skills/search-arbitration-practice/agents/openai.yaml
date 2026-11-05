@@ -1,0 +1,14 @@
+interface:
+  display_name: Поиск судебной практики
+  short_description: 'MASTER PROMPT 10.1: проверенная практика'
+  default_prompt: Используй $search-arbitration-practice, чтобы найти и проверить
+    судебную практику по MASTER PROMPT 10.1.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

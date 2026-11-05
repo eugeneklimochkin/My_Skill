@@ -1,0 +1,14 @@
+interface:
+  display_name: Реестр обязательств
+  short_description: Извлечение и контроль договорных обязательств
+  default_prompt: Используй $track-contract-obligations для составления реестра обязательств
+    по договору.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

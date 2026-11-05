@@ -1,0 +1,14 @@
+interface:
+  display_name: Экономия токенов
+  short_description: Краткая работа без потери точности
+  default_prompt: Используй $save-tokens и выполни задачу с минимальным расходом токенов
+    без потери точности.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

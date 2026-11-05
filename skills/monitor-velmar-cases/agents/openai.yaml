@@ -1,0 +1,14 @@
+interface:
+  display_name: 'ВелМар: судебные дела'
+  short_description: Поиск дел ВелМар и контроль изменений в КАД
+  default_prompt: Используй $monitor-velmar-cases для проверки новых дел и изменений
+    по судебным делам ООО «ВелМар» в КАД.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

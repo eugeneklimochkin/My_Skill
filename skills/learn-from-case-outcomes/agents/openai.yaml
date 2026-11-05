@@ -1,0 +1,14 @@
+interface:
+  display_name: Разбор завершенного дела
+  short_description: Выводы, ошибки и база правовых позиций
+  default_prompt: Используй $learn-from-case-outcomes для разбора результата завершенного
+    дела.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

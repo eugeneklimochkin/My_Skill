@@ -1,0 +1,13 @@
+interface:
+  display_name: Комплект судебной подачи
+  short_description: Сверка и сборка документа с приложениями
+  default_prompt: Собери готовый судебный документ и архив проверенных приложений.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
