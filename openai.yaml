@@ -1,0 +1,3 @@
+interface:
+  display_name: "Обработка загруженных файлов"
+  short_description: "Извлечение текста через MarkItDown и OCR сканов PDF"
