@@ -1,8 +1,9 @@
 interface:
-  display_name: Доказательственный аудитор
-  short_description: Факты, хронология и карта доказательств
-  default_prompt: Используй $build-case-evidence-map для построения паспорта дела
-    и карты доказательств.
+  display_name: Проверка российских компаний
+  short_description: ФНС, активы, связи, суды и взыскание
+  default_prompt: Используй $check-russian-companies, чтобы провести актуальную проверку
+    компании или группы, включая ЕГРЮЛ, активы, корпоративные связи, суды, банкротство
+    и исполнительные производства.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
