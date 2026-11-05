@@ -1,7 +1,8 @@
 interface:
-  display_name: Комплект судебной подачи
-  short_description: Сверка и сборка документа с приложениями
-  default_prompt: Собери готовый судебный документ и архив проверенных приложений.
+  display_name: Доказательственный аудитор
+  short_description: Факты, хронология и карта доказательств
+  default_prompt: Используй $build-case-evidence-map для построения паспорта дела
+    и карты доказательств.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
