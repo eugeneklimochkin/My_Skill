@@ -1,8 +1,7 @@
 interface:
-  display_name: Строительная приемка и ЭДО
-  short_description: КС, УПД, ЭДО и односторонняя приемка
-  default_prompt: Используй $analyze-construction-acceptance для анализа приемки строительных
-    работ и документов ЭДО.
+  display_name: Комплект судебной подачи
+  short_description: Сверка и сборка документа с приложениями
+  default_prompt: Собери готовый судебный документ и архив проверенных приложений.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
