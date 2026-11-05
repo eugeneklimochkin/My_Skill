@@ -1,8 +1,8 @@
 interface:
-  display_name: 'ВелМар: судебные дела'
-  short_description: Поиск дел ВелМар и контроль изменений в КАД
-  default_prompt: Используй $monitor-velmar-cases для проверки новых дел и изменений
-    по судебным делам ООО «ВелМар» в КАД.
+  display_name: Судебный штаб
+  short_description: Параллельные агенты для каждой юридической задачи
+  default_prompt: Используй $run-litigation-headquarters и всегда запусти минимум
+    двух независимых агентов параллельно.
   icon_small: assets/icon.svg
   icon_large: assets/icon.svg
 policy:
